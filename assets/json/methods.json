@@ -1,0 +1,181 @@
+[
+  {
+    "id": "collecting_blue_dragon_scales",
+    "name": "Collecting Blue Dragon Scales",
+    "category": "combat",
+    "gpPerHour": 400000,
+    "requirements": {
+      "skills": {
+        "combat": 70
+      },
+      "quests": []
+    },
+    "difficulty": "medium",
+    "description": "Kill blue dragons in Taverley Dungeon and collect their scales",
+    "steps": [
+      "Equip anti-dragon shield and combat gear",
+      "Bank at Taverley or Falador",
+      "Enter Taverley Dungeon",
+      "Kill blue dragons and collect scales",
+      "Bank when inventory is full"
+    ],
+    "items": ["Anti-dragon shield", "Food", "Combat gear"]
+  },
+  {
+    "id": "runecrafting_nature_runes",
+    "name": "Crafting Nature Runes",
+    "category": "skill",
+    "gpPerHour": 1200000,
+    "requirements": {
+      "skills": {
+        "runecraft": 91
+      },
+      "quests": []
+    },
+    "difficulty": "high",
+    "description": "Craft nature runes using the Abyss for maximum profit",
+    "steps": [
+      "Fill pouches with pure essence at bank",
+      "Enter the Abyss via Zamorak Mage",
+      "Navigate to nature altar",
+      "Craft nature runes",
+      "Teleport back to bank and repeat"
+    ],
+    "items": ["Pure essence", "Runecrafting pouches", "Glory amulet"]
+  },
+  {
+    "id": "flipping_ge",
+    "name": "Grand Exchange Flipping",
+    "category": "merchant",
+    "gpPerHour": 500000,
+    "requirements": {
+      "skills": {},
+      "quests": []
+    },
+    "difficulty": "low",
+    "description": "Buy items low and sell high on the Grand Exchange",
+    "steps": [
+      "Research profitable items with high trade volume",
+      "Place buy offers below market price",
+      "Wait for offers to complete",
+      "Place sell offers above market price",
+      "Collect profit"
+    ],
+    "items": ["Starting capital (5M+ recommended)"]
+  },
+  {
+    "id": "killing_vorkath",
+    "name": "Killing Vorkath",
+    "category": "combat",
+    "gpPerHour": 3500000,
+    "requirements": {
+      "skills": {
+        "ranged": 85,
+        "defence": 75,
+        "hitpoints": 80
+      },
+      "quests": ["Dragon Slayer II"]
+    },
+    "difficulty": "high",
+    "description": "Kill Vorkath for consistent high-tier profit",
+    "steps": [
+      "Equip Dragon Hunter Crossbow or best ranged gear",
+      "Bring super extended antifire potion",
+      "Use Protect from Magic prayer",
+      "Learn attack patterns and dodge special attacks",
+      "Loot valuable drops"
+    ],
+    "items": ["Dragon Hunter Crossbow", "Dragonfire shield", "Super extended antifire", "Food", "Prayer potions"]
+  },
+  {
+    "id": "herb_runs",
+    "name": "Herb Farming Runs",
+    "category": "skill",
+    "gpPerHour": 800000,
+    "requirements": {
+      "skills": {
+        "farming": 32
+      },
+      "quests": []
+    },
+    "difficulty": "low",
+    "description": "Plant and harvest herbs at farming patches",
+    "steps": [
+      "Buy herb seeds (ranarr, snapdragon, or torstol)",
+      "Visit all herb patches across Gielinor",
+      "Plant seeds with ultracompost",
+      "Wait 80 minutes for growth",
+      "Harvest and sell herbs"
+    ],
+    "items": ["Herb seeds", "Ultracompost", "Magic secateurs", "Teleports"]
+  },
+  {
+    "id": "slayer_tasks",
+    "name": "High-Level Slayer",
+    "category": "combat",
+    "gpPerHour": 2000000,
+    "requirements": {
+      "skills": {
+        "slayer": 75,
+        "combat": 100
+      },
+      "quests": []
+    },
+    "difficulty": "medium",
+    "description": "Complete slayer tasks for valuable drops",
+    "steps": [
+      "Get task from Duradel or Konar",
+      "Equip appropriate gear for the task",
+      "Kill assigned monsters",
+      "Collect valuable drops",
+      "Return for new task"
+    ],
+    "items": ["Best combat gear", "Food", "Prayer potions", "Cannon (optional)"]
+  },
+  {
+    "id": "barrows",
+    "name": "Barrows Runs",
+    "category": "combat",
+    "gpPerHour": 800000,
+    "requirements": {
+      "skills": {
+        "combat": 70,
+        "magic": 70
+      },
+      "quests": ["Priest in Peril"]
+    },
+    "difficulty": "medium",
+    "description": "Kill Barrows brothers for valuable armor pieces",
+    "steps": [
+      "Teleport to Barrows using Barrows teleport tabs",
+      "Kill all 6 barrows brothers",
+      "Kill monsters in tunnel to reach 88% reward potential",
+      "Loot the chest",
+      "Teleport out and repeat"
+    ],
+    "items": ["Trident of the seas", "Prayer potions", "Food", "Barrows teleport tabs"]
+  },
+  {
+    "id": "zulrah",
+    "name": "Killing Zulrah",
+    "category": "combat",
+    "gpPerHour": 2500000,
+    "requirements": {
+      "skills": {
+        "ranged": 80,
+        "magic": 80
+      },
+      "quests": ["Regicide"]
+    },
+    "difficulty": "high",
+    "description": "Kill Zulrah for consistent profit and rare drops",
+    "steps": [
+      "Learn all rotation patterns",
+      "Bring both magic and ranged gear",
+      "Use anti-venom and cure me prayers",
+      "Switch gear according to phase",
+      "Bank loot and repeat"
+    ],
+    "items": ["Toxic blowpipe", "Trident", "Anti-venom+", "Food", "Prayer potions"]
+  }
+]
