@@ -1,0 +1,146 @@
+[
+  {
+    "id": 2,
+    "name": "Cannonball",
+    "price": 200,
+    "high_alch": 12,
+    "low_alch": 8,
+    "members": true
+  },
+  {
+    "id": 554,
+    "name": "Fire rune",
+    "price": 5,
+    "high_alch": 3,
+    "low_alch": 2,
+    "members": false
+  },
+  {
+    "id": 555,
+    "name": "Water rune",
+    "price": 5,
+    "high_alch": 3,
+    "low_alch": 2,
+    "members": false
+  },
+  {
+    "id": 561,
+    "name": "Nature rune",
+    "price": 250,
+    "high_alch": 90,
+    "low_alch": 60,
+    "members": true
+  },
+  {
+    "id": 1513,
+    "name": "Magic logs",
+    "price": 1200,
+    "high_alch": 600,
+    "low_alch": 400,
+    "members": true
+  },
+  {
+    "id": 1515,
+    "name": "Yew logs",
+    "price": 350,
+    "high_alch": 192,
+    "low_alch": 128,
+    "members": false
+  },
+  {
+    "id": 1623,
+    "name": "Uncut sapphire",
+    "price": 500,
+    "high_alch": 250,
+    "low_alch": 166,
+    "members": false
+  },
+  {
+    "id": 1631,
+    "name": "Uncut ruby",
+    "price": 1500,
+    "high_alch": 800,
+    "low_alch": 533,
+    "members": false
+  },
+  {
+    "id": 2363,
+    "name": "Raw tuna",
+    "price": 100,
+    "high_alch": 30,
+    "low_alch": 20,
+    "members": false
+  },
+  {
+    "id": 2365,
+    "name": "Raw lobster",
+    "price": 180,
+    "high_alch": 60,
+    "low_alch": 40,
+    "members": false
+  },
+  {
+    "id": 2367,
+    "name": "Raw swordfish",
+    "price": 300,
+    "high_alch": 100,
+    "low_alch": 66,
+    "members": false
+  },
+  {
+    "id": 3140,
+    "name": "Dragon axe",
+    "price": 1200000,
+    "high_alch": 120000,
+    "low_alch": 80000,
+    "members": true
+  },
+  {
+    "id": 4151,
+    "name": "Abyssal whip",
+    "price": 2500000,
+    "high_alch": 72000,
+    "low_alch": 48000,
+    "members": true
+  },
+  {
+    "id": 11802,
+    "name": "Armadyl godsword",
+    "price": 25000000,
+    "high_alch": 300000,
+    "low_alch": 200000,
+    "members": true
+  },
+  {
+    "id": 11832,
+    "name": "Bandos chestplate",
+    "price": 20000000,
+    "high_alch": 240000,
+    "low_alch": 160000,
+    "members": true
+  },
+  {
+    "id": 12924,
+    "name": "Twisted bow",
+    "price": 1100000000,
+    "high_alch": 800000,
+    "low_alch": 533333,
+    "members": true
+  },
+  {
+    "id": 21021,
+    "name": "Dragon hunter crossbow",
+    "price": 85000000,
+    "high_alch": 400000,
+    "low_alch": 266666,
+    "members": true
+  },
+  {
+    "id": 22978,
+    "name": "Scythe of vitur",
+    "price": 380000000,
+    "high_alch": 800000,
+    "low_alch": 533333,
+    "members": true
+  }
+]

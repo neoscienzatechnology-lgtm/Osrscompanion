@@ -1,0 +1,300 @@
+[
+  {
+    "id": "attack",
+    "name": "Attack",
+    "icon": "attack",
+    "description": "A combat skill that increases accuracy and damage with melee weapons",
+    "members": false,
+    "xpTable": [
+      {"level": 1, "xp": 0},
+      {"level": 2, "xp": 83},
+      {"level": 5, "xp": 388},
+      {"level": 10, "xp": 1154},
+      {"level": 20, "xp": 4470},
+      {"level": 30, "xp": 13363},
+      {"level": 40, "xp": 37224},
+      {"level": 50, "xp": 101333},
+      {"level": 60, "xp": 273742},
+      {"level": 70, "xp": 737627},
+      {"level": 80, "xp": 1986068},
+      {"level": 90, "xp": 5346332},
+      {"level": 99, "xp": 13034431}
+    ],
+    "trainingMethods": [
+      {
+        "levelRange": "1-10",
+        "method": "Kill chickens or goblins",
+        "xpPerHour": 7000,
+        "gpCost": 0,
+        "items": ["Bronze sword", "Food"]
+      },
+      {
+        "levelRange": "10-20",
+        "method": "Kill cows or hill giants",
+        "xpPerHour": 10000,
+        "gpCost": 0,
+        "items": ["Iron scimitar", "Food"]
+      },
+      {
+        "levelRange": "20-40",
+        "method": "Sand Crabs",
+        "xpPerHour": 20000,
+        "gpCost": 0,
+        "items": ["Best gear available", "Food"]
+      },
+      {
+        "levelRange": "40-60",
+        "method": "Slayer tasks",
+        "xpPerHour": 30000,
+        "gpCost": 0,
+        "items": ["Dragon scimitar", "Food", "Potions"]
+      },
+      {
+        "levelRange": "60-99",
+        "method": "Nightmare Zone or Slayer",
+        "xpPerHour": 50000,
+        "gpCost": 100000,
+        "items": ["Best gear", "Absorption potions"]
+      }
+    ]
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "icon": "strength",
+    "description": "A combat skill that increases max hit with melee weapons",
+    "members": false,
+    "xpTable": [
+      {"level": 1, "xp": 0},
+      {"level": 2, "xp": 83},
+      {"level": 5, "xp": 388},
+      {"level": 10, "xp": 1154},
+      {"level": 20, "xp": 4470},
+      {"level": 30, "xp": 13363},
+      {"level": 40, "xp": 37224},
+      {"level": 50, "xp": 101333},
+      {"level": 60, "xp": 273742},
+      {"level": 70, "xp": 737627},
+      {"level": 80, "xp": 1986068},
+      {"level": 90, "xp": 5346332},
+      {"level": 99, "xp": 13034431}
+    ],
+    "trainingMethods": [
+      {
+        "levelRange": "1-20",
+        "method": "Kill low-level monsters",
+        "xpPerHour": 10000,
+        "gpCost": 0,
+        "items": ["Melee weapons", "Food"]
+      },
+      {
+        "levelRange": "20-60",
+        "method": "Sand Crabs",
+        "xpPerHour": 25000,
+        "gpCost": 0,
+        "items": ["Best gear", "Food"]
+      },
+      {
+        "levelRange": "60-99",
+        "method": "Nightmare Zone",
+        "xpPerHour": 60000,
+        "gpCost": 150000,
+        "items": ["Dharok's set", "Absorption potions"]
+      }
+    ]
+  },
+  {
+    "id": "mining",
+    "name": "Mining",
+    "icon": "mining",
+    "description": "The ability to obtain ores and minerals from rocks",
+    "members": false,
+    "xpTable": [
+      {"level": 1, "xp": 0},
+      {"level": 15, "xp": 2411},
+      {"level": 30, "xp": 13363},
+      {"level": 40, "xp": 37224},
+      {"level": 60, "xp": 273742},
+      {"level": 85, "xp": 3258594},
+      {"level": 99, "xp": 13034431}
+    ],
+    "trainingMethods": [
+      {
+        "levelRange": "1-15",
+        "method": "Copper and tin ore",
+        "xpPerHour": 5000,
+        "gpCost": 0,
+        "items": ["Bronze pickaxe"]
+      },
+      {
+        "levelRange": "15-30",
+        "method": "Iron ore (drop or bank)",
+        "xpPerHour": 15000,
+        "gpCost": 0,
+        "items": ["Iron pickaxe"]
+      },
+      {
+        "levelRange": "30-60",
+        "method": "Motherlode Mine",
+        "xpPerHour": 30000,
+        "gpCost": -50000,
+        "items": ["Rune pickaxe"]
+      },
+      {
+        "levelRange": "60-75",
+        "method": "Motherlode Mine or MLM",
+        "xpPerHour": 35000,
+        "gpCost": -100000,
+        "items": ["Dragon pickaxe"]
+      },
+      {
+        "levelRange": "75-99",
+        "method": "Blast Mine",
+        "xpPerHour": 60000,
+        "gpCost": 50000,
+        "items": ["Dragon pickaxe", "Dynamite"]
+      }
+    ]
+  },
+  {
+    "id": "woodcutting",
+    "name": "Woodcutting",
+    "icon": "woodcutting",
+    "description": "The ability to cut down trees for logs",
+    "members": false,
+    "xpTable": [
+      {"level": 1, "xp": 0},
+      {"level": 15, "xp": 2411},
+      {"level": 30, "xp": 13363},
+      {"level": 60, "xp": 273742},
+      {"level": 90, "xp": 5346332},
+      {"level": 99, "xp": 13034431}
+    ],
+    "trainingMethods": [
+      {
+        "levelRange": "1-15",
+        "method": "Normal trees",
+        "xpPerHour": 7000,
+        "gpCost": 0,
+        "items": ["Bronze axe"]
+      },
+      {
+        "levelRange": "15-30",
+        "method": "Oak trees",
+        "xpPerHour": 15000,
+        "gpCost": 0,
+        "items": ["Steel axe"]
+      },
+      {
+        "levelRange": "30-60",
+        "method": "Willow trees",
+        "xpPerHour": 30000,
+        "gpCost": 0,
+        "items": ["Rune axe"]
+      },
+      {
+        "levelRange": "60-75",
+        "method": "Yew trees",
+        "xpPerHour": 35000,
+        "gpCost": -100000,
+        "items": ["Dragon axe"]
+      },
+      {
+        "levelRange": "75-99",
+        "method": "Redwood trees",
+        "xpPerHour": 60000,
+        "gpCost": -150000,
+        "items": ["Dragon axe"]
+      }
+    ]
+  },
+  {
+    "id": "fishing",
+    "name": "Fishing",
+    "icon": "fishing",
+    "description": "The ability to catch fish",
+    "members": false,
+    "xpTable": [
+      {"level": 1, "xp": 0},
+      {"level": 20, "xp": 4470},
+      {"level": 40, "xp": 37224},
+      {"level": 62, "xp": 337834},
+      {"level": 82, "xp": 2421087},
+      {"level": 99, "xp": 13034431}
+    ],
+    "trainingMethods": [
+      {
+        "levelRange": "1-20",
+        "method": "Shrimp and anchovies",
+        "xpPerHour": 8000,
+        "gpCost": 0,
+        "items": ["Small fishing net"]
+      },
+      {
+        "levelRange": "20-40",
+        "method": "Trout and salmon (fly fishing)",
+        "xpPerHour": 20000,
+        "gpCost": 1000,
+        "items": ["Fly fishing rod", "Feathers"]
+      },
+      {
+        "levelRange": "40-62",
+        "method": "Lobsters",
+        "xpPerHour": 30000,
+        "gpCost": -50000,
+        "items": ["Lobster pot"]
+      },
+      {
+        "levelRange": "62-82",
+        "method": "Monkfish",
+        "xpPerHour": 35000,
+        "gpCost": -80000,
+        "items": ["Small fishing net"]
+      },
+      {
+        "levelRange": "82-99",
+        "method": "Minnows or Anglerfish",
+        "xpPerHour": 45000,
+        "gpCost": -150000,
+        "items": ["Fishing rod", "Bait"]
+      }
+    ]
+  },
+  {
+    "id": "cooking",
+    "name": "Cooking",
+    "icon": "cooking",
+    "description": "The ability to cook food",
+    "members": false,
+    "xpTable": [
+      {"level": 1, "xp": 0},
+      {"level": 30, "xp": 13363},
+      {"level": 50, "xp": 101333},
+      {"level": 90, "xp": 5346332},
+      {"level": 99, "xp": 13034431}
+    ],
+    "trainingMethods": [
+      {
+        "levelRange": "1-30",
+        "method": "Cook shrimp/trout",
+        "xpPerHour": 40000,
+        "gpCost": 10000,
+        "items": ["Raw fish"]
+      },
+      {
+        "levelRange": "30-90",
+        "method": "Cook lobsters/swordfish",
+        "xpPerHour": 180000,
+        "gpCost": 50000,
+        "items": ["Raw fish", "Cooking gauntlets"]
+      },
+      {
+        "levelRange": "90-99",
+        "method": "Cook sharks",
+        "xpPerHour": 250000,
+        "gpCost": 100000,
+        "items": ["Raw sharks", "Cooking gauntlets"]
+      }
+    ]
+  }
+]

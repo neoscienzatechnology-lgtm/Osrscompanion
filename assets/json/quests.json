@@ -1,0 +1,147 @@
+[
+  {
+    "id": "cooks_assistant",
+    "name": "Cook's Assistant",
+    "difficulty": "novice",
+    "length": "short",
+    "members": false,
+    "combat": false,
+    "questPoints": 1,
+    "requirements": {
+      "skills": {}
+    },
+    "rewards": {
+      "questPoints": 1,
+      "experience": {
+        "cooking": 300
+      },
+      "items": []
+    },
+    "steps": [
+      "Talk to the Cook in Lumbridge Castle kitchen",
+      "Obtain an egg, flour, and milk",
+      "Egg: Get from chickens near Lumbridge",
+      "Flour: Wheat from field north of Lumbridge, grind at mill",
+      "Milk: Use bucket on dairy cow near Lumbridge",
+      "Return to the Cook with all ingredients"
+    ]
+  },
+  {
+    "id": "dragon_slayer",
+    "name": "Dragon Slayer I",
+    "difficulty": "experienced",
+    "length": "long",
+    "members": false,
+    "combat": true,
+    "questPoints": 2,
+    "requirements": {
+      "skills": {
+        "combat": 40
+      },
+      "quests": []
+    },
+    "rewards": {
+      "questPoints": 2,
+      "experience": {
+        "strength": 18650,
+        "defence": 18650
+      },
+      "items": ["Dragon Slayer shield", "Ability to wear rune platebody"]
+    },
+    "steps": [
+      "Talk to the Guildmaster in the Champions' Guild",
+      "Collect three map pieces from Wormbrain, Melzar, and oracle",
+      "Visit Oziach in Edgeville",
+      "Obtain anti-dragon shield",
+      "Board ship to Crandor",
+      "Navigate through underground passage",
+      "Defeat Elvarg the dragon (level 83)"
+    ]
+  },
+  {
+    "id": "monkey_madness",
+    "name": "Monkey Madness I",
+    "difficulty": "master",
+    "length": "very_long",
+    "members": true,
+    "combat": true,
+    "questPoints": 3,
+    "requirements": {
+      "skills": {},
+      "quests": ["The Grand Tree", "Tree Gnome Village"]
+    },
+    "rewards": {
+      "questPoints": 3,
+      "experience": {
+        "attack": 35000,
+        "defence": 35000,
+        "hitpoints": 35000
+      },
+      "items": ["Ability to wield Dragon Scimitar", "Access to Ape Atoll"]
+    },
+    "steps": [
+      "Talk to King Narnode Shareen in the Grand Tree",
+      "Prepare inventory with required items",
+      "Travel to Ape Atoll",
+      "Complete the underground caverns",
+      "Defeat the Jungle Demon",
+      "Return to King Narnode"
+    ]
+  },
+  {
+    "id": "recipe_for_disaster",
+    "name": "Recipe for Disaster",
+    "difficulty": "grandmaster",
+    "length": "very_long",
+    "members": true,
+    "combat": true,
+    "questPoints": 10,
+    "requirements": {
+      "skills": {
+        "cooking": 70,
+        "quest_points": 175
+      },
+      "quests": ["Multiple subquests required"]
+    },
+    "rewards": {
+      "questPoints": 10,
+      "experience": {
+        "cooking": 20000
+      },
+      "items": ["Barrows gloves", "Access to Culinaromancer's Chest"]
+    },
+    "steps": [
+      "Start by talking to the Cook in Lumbridge Castle",
+      "Complete all 10 subquests to free each council member",
+      "Defeat the Culinaromancer in final battle",
+      "Claim your rewards from the chest"
+    ]
+  },
+  {
+    "id": "waterfall_quest",
+    "name": "Waterfall Quest",
+    "difficulty": "intermediate",
+    "length": "medium",
+    "members": true,
+    "combat": false,
+    "questPoints": 1,
+    "requirements": {
+      "skills": {}
+    },
+    "rewards": {
+      "questPoints": 1,
+      "experience": {
+        "attack": 13750,
+        "strength": 13750
+      }
+    },
+    "steps": [
+      "Talk to Almera in her house east of the Fight Arena",
+      "Obtain a rope and glarial's amulet",
+      "Enter Glarial's Tomb",
+      "Navigate the waterfall dungeon",
+      "Solve the boulder puzzle",
+      "Claim treasure from the chest"
+    ]
+  }
+]
